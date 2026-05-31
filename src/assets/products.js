@@ -1,0 +1,92 @@
+/** @type {import('../types').Product[]} */
+export const PRODUCTS = [
+  // ── Пушкинская 12 ──────────────────────────────────────────────
+  { id: 1,  name: 'VIP PLAYSTATION',        category: 'pushkinskaya_12',    price:  950, imageUrl: '/vip_ps.jpg',       stock: 10 },
+  { id: 2,  name: 'SUPER VIP PLAYSTATION',  category: 'pushkinskaya_12',    price: 1650, imageUrl: '/super_vip_ps.jpg', stock: 4  },
+  { id: 3,  name: 'VIP PC CYZONE',          category: 'pushkinskaya_12',    price:  800, imageUrl: '/vip_pc.jpg',       stock: 35 },
+  { id: 4,  name: 'BOOTCAMP ZONE',          category: 'pushkinskaya_12',    price:  550, imageUrl: '/bootcamp.jpg',     stock: 35 },
+  { id: 5,  name: 'COMFORT ZONE',           category: 'pushkinskaya_12',    price:  300, imageUrl: '/comfort.jpg',      stock: 40 },
+  { id: 6,  name: 'VIP PLAYSTATION',        category: 'pushkinskaya_12',    price:  950, imageUrl: '/vip_ps.jpg',       stock: 10 },
+  { id: 7,  name: 'SUPER VIP PLAYSTATION',  category: 'pushkinskaya_12',    price: 1650, imageUrl: '/super_vip_ps.jpg', stock: 4  },
+  { id: 8,  name: 'VIP PC CYZONE',          category: 'pushkinskaya_12',    price:  800, imageUrl: '/vip_pc.jpg',       stock: 35 },
+  { id: 9,  name: 'BOOTCAMP ZONE',          category: 'pushkinskaya_12',    price:  550, imageUrl: '/bootcamp.jpg',     stock: 35 },
+  { id: 10, name: 'COMFORT ZONE',           category: 'pushkinskaya_12',    price:  300, imageUrl: '/comfort.jpg',      stock: 40 },
+  { id: 11, name: 'VIP PLAYSTATION',        category: 'pushkinskaya_12',    price:  950, imageUrl: '/vip_ps.jpg',       stock: 10 },
+  { id: 12, name: 'SUPER VIP PLAYSTATION',  category: 'pushkinskaya_12',    price: 1650, imageUrl: '/super_vip_ps.jpg', stock: 4  },
+  { id: 13, name: 'VIP PC CYZONE',          category: 'pushkinskaya_12',    price:  800, imageUrl: '/vip_pc.jpg',       stock: 35 },
+  { id: 14, name: 'BOOTCAMP ZONE',          category: 'pushkinskaya_12',    price:  550, imageUrl: '/bootcamp.jpg',     stock: 35 },
+  { id: 15, name: 'COMFORT ZONE',           category: 'pushkinskaya_12',    price:  300, imageUrl: '/comfort.jpg',      stock: 40 },
+  { id: 16, name: 'VIP PLAYSTATION',        category: 'pushkinskaya_12',    price:  950, imageUrl: '/vip_ps.jpg',       stock: 10 },
+  { id: 17, name: 'SUPER VIP PLAYSTATION',  category: 'pushkinskaya_12',    price: 1650, imageUrl: '/super_vip_ps.jpg', stock: 4  },
+  { id: 18, name: 'VIP PC CYZONE',          category: 'pushkinskaya_12',    price:  800, imageUrl: '/vip_pc.jpg',       stock: 35 },
+  { id: 19, name: 'BOOTCAMP ZONE',          category: 'pushkinskaya_12',    price:  550, imageUrl: '/bootcamp.jpg',     stock: 35 },
+  { id: 20, name: 'COMFORT ZONE',           category: 'pushkinskaya_12',    price:  300, imageUrl: '/comfort.jpg',      stock: 40 },
+
+  // ── Ломоносово 47 ──────────────────────────────────────────────
+  { id: 21, name: 'VIP PLAYSTATION',        category: 'lomonosovo_47',      price: 1100, imageUrl: '/vip_ps.jpg',       stock: 4  },
+  { id: 22, name: 'SUPER VIP PLAYSTATION',  category: 'lomonosovo_47',      price: 1800, imageUrl: '/super_vip_ps.jpg', stock: 2  },
+  { id: 23, name: 'VIP PC CYZONE',          category: 'lomonosovo_47',      price:  950, imageUrl: '/vip_pc.jpg',       stock: 18 },
+  { id: 24, name: 'BOOTCAMP ZONE',          category: 'lomonosovo_47',      price:  700, imageUrl: '/bootcamp.jpg',     stock: 24 },
+  { id: 25, name: 'COMFORT ZONE',           category: 'lomonosovo_47',      price:  450, imageUrl: '/comfort.jpg',      stock: 28 },
+  { id: 26, name: 'VIP PLAYSTATION',        category: 'lomonosovo_47',      price: 1100, imageUrl: '/vip_ps.jpg',       stock: 4  },
+  { id: 27, name: 'SUPER VIP PLAYSTATION',  category: 'lomonosovo_47',      price: 1800, imageUrl: '/super_vip_ps.jpg', stock: 2  },
+  { id: 28, name: 'VIP PC CYZONE',          category: 'lomonosovo_47',      price:  950, imageUrl: '/vip_pc.jpg',       stock: 18 },
+  { id: 29, name: 'BOOTCAMP ZONE',          category: 'lomonosovo_47',      price:  700, imageUrl: '/bootcamp.jpg',     stock: 24 },
+  { id: 30, name: 'COMFORT ZONE',           category: 'lomonosovo_47',      price:  450, imageUrl: '/comfort.jpg',      stock: 28 },
+  { id: 31, name: 'VIP PLAYSTATION',        category: 'lomonosovo_47',      price: 1100, imageUrl: '/vip_ps.jpg',       stock: 4  },
+  { id: 32, name: 'SUPER VIP PLAYSTATION',  category: 'lomonosovo_47',      price: 1800, imageUrl: '/super_vip_ps.jpg', stock: 2  },
+  { id: 33, name: 'VIP PC CYZONE',          category: 'lomonosovo_47',      price:  950, imageUrl: '/vip_pc.jpg',       stock: 18 },
+  { id: 34, name: 'BOOTCAMP ZONE',          category: 'lomonosovo_47',      price:  700, imageUrl: '/bootcamp.jpg',     stock: 24 },
+  { id: 35, name: 'COMFORT ZONE',           category: 'lomonosovo_47',      price:  450, imageUrl: '/comfort.jpg',      stock: 28 },
+  { id: 36, name: 'VIP PLAYSTATION',        category: 'lomonosovo_47',      price: 1100, imageUrl: '/vip_ps.jpg',       stock: 4  },
+  { id: 37, name: 'SUPER VIP PLAYSTATION',  category: 'lomonosovo_47',      price: 1800, imageUrl: '/super_vip_ps.jpg', stock: 2  },
+  { id: 38, name: 'VIP PC CYZONE',          category: 'lomonosovo_47',      price:  950, imageUrl: '/vip_pc.jpg',       stock: 18 },
+  { id: 39, name: 'BOOTCAMP ZONE',          category: 'lomonosovo_47',      price:  700, imageUrl: '/bootcamp.jpg',     stock: 24 },
+  { id: 40, name: 'COMFORT ZONE',           category: 'lomonosovo_47',      price:  450, imageUrl: '/comfort.jpg',      stock: 28 },
+
+  // ── Гагарина 40 ────────────────────────────────────────────
+  { id: 41, name: 'VIP PC CYZONE',          category: 'gagarina_40',        price: 1200, imageUrl: '/vip_pc.jpg',       stock: 32 },
+  { id: 42, name: 'BOOTCAMP ZONE',          category: 'gagarina_40',        price:  850, imageUrl: '/bootcamp.jpg',     stock: 48 },
+  { id: 43, name: 'COMFORT ZONE',           category: 'gagarina_40',        price:  500, imageUrl: '/comfort.jpg',      stock: 54 },
+  { id: 44, name: 'VIP PC CYZONE',          category: 'gagarina_40',        price: 1200, imageUrl: '/vip_pc.jpg',       stock: 32 },
+  { id: 45, name: 'BOOTCAMP ZONE',          category: 'gagarina_40',        price:  850, imageUrl: '/bootcamp.jpg',     stock: 48 },
+  { id: 46, name: 'COMFORT ZONE',           category: 'gagarina_40',        price:  500, imageUrl: '/comfort.jpg',      stock: 54 },
+  { id: 47, name: 'VIP PC CYZONE',          category: 'gagarina_40',        price: 1200, imageUrl: '/vip_pc.jpg',       stock: 32 },
+  { id: 48, name: 'BOOTCAMP ZONE',          category: 'gagarina_40',        price:  850, imageUrl: '/bootcamp.jpg',     stock: 48 },
+  { id: 49, name: 'COMFORT ZONE',           category: 'gagarina_40',        price:  500, imageUrl: '/comfort.jpg',      stock: 54 },
+  { id: 50, name: 'VIP PC CYZONE',          category: 'gagarina_40',        price: 1200, imageUrl: '/vip_pc.jpg',       stock: 32 },
+  { id: 51, name: 'BOOTCAMP ZONE',          category: 'gagarina_40',        price:  850, imageUrl: '/bootcamp.jpg',     stock: 48 },
+  { id: 52, name: 'COMFORT ZONE',           category: 'gagarina_40',        price:  500, imageUrl: '/comfort.jpg',      stock: 54 },
+
+  // ── Арбатская 3 ────────────────────────────────────────────
+  { id: 53, name: 'VIP PLAYSTATION',        category: 'arbatskaya_3',       price: 1400, imageUrl: '/vip_ps.jpg',       stock: 3  },
+  { id: 54, name: 'SUPER VIP PLAYSTATION',  category: 'arbatskaya_3',       price: 2500, imageUrl: '/super_vip_ps.jpg', stock: 1  },
+  { id: 55, name: 'VIP PC CYZONE',          category: 'arbatskaya_3',       price: 1300, imageUrl: '/vip_pc.jpg',       stock: 10 },
+  { id: 56, name: 'BOOTCAMP ZONE',          category: 'arbatskaya_3',       price:  900, imageUrl: '/bootcamp.jpg',     stock: 12 },
+  { id: 57, name: 'COMFORT ZONE',           category: 'arbatskaya_3',       price:  650, imageUrl: '/comfort.jpg',      stock: 14 },
+  { id: 58, name: 'VIP PLAYSTATION',        category: 'arbatskaya_3',       price: 1400, imageUrl: '/vip_ps.jpg',       stock: 3  },
+  { id: 59, name: 'SUPER VIP PLAYSTATION',  category: 'arbatskaya_3',       price: 2500, imageUrl: '/super_vip_ps.jpg', stock: 1  },
+  { id: 60, name: 'VIP PC CYZONE',          category: 'arbatskaya_3',       price: 1300, imageUrl: '/vip_pc.jpg',       stock: 10 },
+  { id: 61, name: 'BOOTCAMP ZONE',          category: 'arbatskaya_3',       price:  900, imageUrl: '/bootcamp.jpg',     stock: 12 },
+  { id: 62, name: 'COMFORT ZONE',           category: 'arbatskaya_3',       price:  650, imageUrl: '/comfort.jpg',      stock: 14 },
+  { id: 63, name: 'VIP PLAYSTATION',        category: 'arbatskaya_3',       price: 1400, imageUrl: '/vip_ps.jpg',       stock: 3  },
+  { id: 64, name: 'SUPER VIP PLAYSTATION',  category: 'arbatskaya_3',       price: 2500, imageUrl: '/super_vip_ps.jpg', stock: 1  },
+  { id: 65, name: 'VIP PC CYZONE',          category: 'arbatskaya_3',       price: 1300, imageUrl: '/vip_pc.jpg',       stock: 10 },
+  { id: 66, name: 'BOOTCAMP ZONE',          category: 'arbatskaya_3',       price:  900, imageUrl: '/bootcamp.jpg',     stock: 12 },
+  { id: 67, name: 'COMFORT ZONE',           category: 'arbatskaya_3',       price:  650, imageUrl: '/comfort.jpg',      stock: 14 },
+  { id: 68, name: 'VIP PLAYSTATION',        category: 'arbatskaya_3',       price: 1400, imageUrl: '/vip_ps.jpg',       stock: 3  },
+  { id: 69, name: 'SUPER VIP PLAYSTATION',  category: 'arbatskaya_3',       price: 2500, imageUrl: '/super_vip_ps.jpg', stock: 1  },
+  { id: 70, name: 'VIP PC CYZONE',          category: 'arbatskaya_3',       price: 1300, imageUrl: '/vip_pc.jpg',       stock: 10 },
+  { id: 71, name: 'BOOTCAMP ZONE',          category: 'arbatskaya_3',       price:  900, imageUrl: '/bootcamp.jpg',     stock: 12 },
+  { id: 72, name: 'COMFORT ZONE',           category: 'arbatskaya_3',       price:  650, imageUrl: '/comfort.jpg',      stock: 14 },
+]
+
+/** @type {Record<import('../types').ProductCategory, string>} */
+export const CATEGORY_NAMES = {
+  pushkinskaya_12:  'Пушкинская 12',
+  lomonosovo_47:    'Ломоносово 47',
+  gagarina_40:      'Гагарина 40',
+  arbatskaya_3:     'Арбатская 3'  
+}
+
+export const ITEMS_PER_PAGE = 8
